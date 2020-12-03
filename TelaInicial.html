@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela inicial</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="bloco">
+        
+        <div id="logogame">
+            <img src="imagens/logo.png">
+        </div><br>
+        <a href="jogo.html">Jogar</a><br>
+       
+    </div>
+    <script>
+        function musicaFundo() {
+            var musica = document.createElement("audio")
+            musica.setAttribute("src", "sons/fundo.mp3")
+            musica.setAttribute("autoplay:false", "autoplay")
+            musica.play()
+        }     
+        musicaFundo()
+    </script>
+    
+</body>
+</html>

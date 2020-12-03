@@ -1,0 +1,109 @@
+body{
+    background-image: url('imagens/4fd0548bf81d7a518659ebcaf79537bc.jpg');
+    text-align: center;
+}
+
+@font-face {
+    font-family: show;
+    src:url(fonte/show.ttf);
+}
+
+a{
+    background:rgb(26, 84, 231); 
+    font-family: show;
+    text-align: center;
+    margin-top: 70px;
+	font-size: 40px;
+	border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+	width: 200px;
+	display: inline-block;
+    padding: 5px;
+    color:rgb(252, 254, 252);
+}
+
+#bloco{
+    text-align: center;
+    margin-top: 150px;
+}
+
+a:hover{
+    color:rgb(244, 193, 80);
+}
+
+#blocopergunta{
+    text-align: center;
+    margin-left: 150px;
+    width: 800px;
+    position: absolute;
+}
+
+#blocoplacar{
+    text-align: left;
+    margin-left: 1000px;
+    margin-top: 100px;
+    width: 400px;
+    position: absolute;
+}
+
+#placar, #valorPlacar{
+    background-color: rgb(26, 84, 231);
+    font-family: show;
+    text-align: center;
+	font-size: 25px;
+	border-radius: 10px;
+    padding: 15px;
+    color:rgb(252, 254, 252);
+    display: inline;
+}
+
+#silvio{
+    display: inline;
+    position: absolute;  
+}
+
+#logo{
+    text-align: left;
+}
+
+#pergunta{
+    background-color: rgb(26, 84, 231);
+    font-family: show;
+    text-align: center;
+	font-size: 25px;
+	border-radius: 10px;
+	width: 800px;
+    padding: 15px;
+    color:rgb(252, 254, 252);
+}
+
+#pergunta:hover{
+    background-color:rgb(19, 62, 170);
+}
+
+#resposta, input{
+    cursor: pointer;   
+    font-family: show;
+    text-align: left;
+	font-size: 25px;
+	border-radius: 10px;	
+	width: 750px;
+    padding: 15px;
+    color:rgb(252, 254, 252);  
+}
+
+input{
+    background-color:rgb(26, 84, 231);
+    margin-top: 10px;
+}
+
+input:hover{
+    width: 760px;
+    padding:16px ;
+    background-color:rgb(19, 62, 170);
+}
+
+#barra{
+    padding: 20px;
+}

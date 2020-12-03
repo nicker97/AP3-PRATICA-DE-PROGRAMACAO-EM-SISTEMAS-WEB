@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Milhão</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <div id="blocopergunta">
+        <div id="logo">
+            <img src="imagens/logo.png">
+        </div>
+
+            <div id="pergunta"></div>
+
+        <div id="resposta">
+            <input type="button" id="resposta1" value="1 " onclick="verificarAcerto1()"><br>
+            <input type="button" id="resposta2" value="2 " onclick="verificarAcerto2()"><br>
+            <input type="button" id="resposta3" value="3 " onclick="verificarAcerto3()"><br>
+            <input type="button" id="resposta4" value="4 " onclick="verificarAcerto4()">
+        </div>   
+         
+    </div>
+
+    <div id="blocoplacar">
+        <div id="placar">
+            Placar:<p id="valorPlacar">0</p>
+            
+        </div>
+        <br><br><progress id="barra" max="12" value="0"></progress>
+        
+        <div id="silvio">
+            <img src="imagens/silvio.png">
+        </div>
+    </div>
+    <script language="JavaScript" src="funcoes.js"></script>
+</body>
+</html>
